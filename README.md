@@ -31,4 +31,3 @@ resampling: str | str ∈ (lanczos, catmull, mitnet, linear, box, nearest)
 
 #### `DELETE /api/v1/images/:image_id`
 Удаляет картинку с ключом `image_id`. Удаление картинки с `parent: None` влечет за собой удаление всех ее preview.
-```
