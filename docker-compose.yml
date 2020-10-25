@@ -1,0 +1,13 @@
+version: '3'
+services:
+  image_gallery:
+    build: ./app
+    ports:
+      - '3000:3000'
+    volumes:
+      - /tmp/:/opt/persist
+    environment:
+      DB_PATH: /opt/persist/images.db
+      IMG_URL: /static
+      IMG_DIR: /opt/persist/images
+      IMG_MAX_SIZE: 134217728 # 128Mb

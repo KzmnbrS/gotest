@@ -8,4 +8,5 @@ require (
 	github.com/gofiber/fiber/v2 v2.1.1
 	github.com/jmoiron/sqlx v1.2.0
 	github.com/mattn/go-sqlite3 v1.14.4
+	github.com/spf13/viper v1.7.1
 )
